@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+.site-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14213d;
+    max-height: 150px;
+}
+
+.site-header .logo-wrapper img {
+    max-height: 150px;
+}
+
+.navigation-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.site-navigation {
+    height: 100%;
+    margin: 0;
+}
+
+.navigation-items .navigation-item {
+    margin: 20px;
+    border-radius: 5px;
+    padding: 12px 18px;
+}
+
+.navigation-items .navigation-item:nth-child(1) {
+    background-color: #E8AA8C;
+}
+
+.navigation-items .navigation-item:nth-child(1) a {
+    color: white;
+}
+
+.navigation-items .navigation-item a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E8AA8C;
+}
+
+.navigation-items .navigation-item:hover {
+    background-color: #006d77;
+}
+
+.navigation-items .navigation-item:hover a {
+    color: white;
+}
+
+.navigation-items .navigation-item:nth-child(1):hover {
+    background-color: #E8AA8C;
+}
+
+/* first-empty-space */
+
+.empty-space  {
+    height: 10px;
+    background-color: #E8AA8C;
+    margin: 0;
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("Resourses/images/banner-4833105.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin: 0;
+    height: 350px;
+}
+
+.banner h1 {
+    font-family: 'Uchen', serif;
+    color: #003049;
+    text-shadow: 1px 1px 5px grey;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* second-empty-space */
+
+/* information */
+
+.information {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    flex-direction: column;
+}
+
+/* footer */
+
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    height: 100%;
+    background-color: #14213d;
+    color: rgb(148, 143, 143);
+}
+
+.page-footer ul {
+    margin: 0;
+    list-style: none;
+}
+
+.page-footer ul li {
+    margin: 20px;
+}
+
+.page-footer ul a {
+    color: rgb(148, 143, 143);
+    text-decoration: none;
+}
+
+.page-footer .share-via ul {
+    display: flex;
+}
+
+.page-footer .share-via li a {
+    align-self: flex-end;
+    font-size: 30px;
+}
+
+.page-footer ul a:hover {
+    color: white;
+}
+
+.page-footer .copyright {
+
+    align-self: center;
+}
