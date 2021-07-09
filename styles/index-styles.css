@@ -149,7 +149,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("Resourses/images/banner-4833105.jpg");
+    background-image: url("/Resourses/images/index-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
